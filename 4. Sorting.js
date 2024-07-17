@@ -1,7 +1,6 @@
 function sorting(arr) {
     let newArr = arr.sort((a, b) => a - b);
     let finalArr = [];
-    
     while (newArr.length > 0) {
         let endNum = newArr.pop();
         finalArr.push(endNum);
